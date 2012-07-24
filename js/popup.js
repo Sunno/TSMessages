@@ -3,8 +3,8 @@ TSMessages by Alvaro Marquina
 (TS is for The Sunno :D)
 http://www.webandlogics.com
 ***************************/
-var red = "#ff0000";
-var green = "#00ff00";
+var red = "#D61313";
+var green = "#108A0A";
 var TSMsgBox = "<div id='tsMsgBox' style='position: fixed; width:100%; top: 0; left: 0; z-index: 100; text-align: center;'></div>";
 
 (function( $ ) {
@@ -25,6 +25,7 @@ var TSMsgBox = "<div id='tsMsgBox' style='position: fixed; width:100%; top: 0; l
 			'type'         : 'confirm', //valid options: error|confirm
 			'bgcolor' : 'none',
 			'fontsize': '2em',
+			'fontcolor': '#fff',
 			'padding': '0.5em',
 			'delay': 3000,
 		}, options);
@@ -49,7 +50,8 @@ var TSMsgBox = "<div id='tsMsgBox' style='position: fixed; width:100%; top: 0; l
 		box.css({
 			"background": bgcolor,
 			'font-size': settings.fontsize,
-			'padding': settings.padding
+			'padding': settings.padding,
+			'color': settings.fontcolor
 		});
 		box.slideDown().delay(settings.delay).slideUp();
 
