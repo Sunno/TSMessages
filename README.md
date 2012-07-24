@@ -1,6 +1,6 @@
 TSMessages
 ==========
-
+<pre>
 A very simple jquery plugin for showing messages in a top bar
 
 Usage:
@@ -13,3 +13,4 @@ Options:
 	fontcolor: of course, color of the font. Default='#fff'
 	padding': distance between words and message border. Default='0.5em'
 	delay: time in miliseconds that message bar will wait to slideup. Default=3000.
+</pre>
