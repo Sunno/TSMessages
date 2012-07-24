@@ -6,7 +6,7 @@ A very simple jquery plugin for showing messages in a top bar
 <pre>Usage:
 	$.TSMessage(message[, options]);
 
-Options:
+Options (this is an object, guys):
 	type: error|confirm if bgcolor is set, this setting will be ignore. This will show green background if confirm and red if error. Default='confirm'
 	bgcolor : background color, if not set it will use green (108A0A) for confirm and red (D61313) for error. Default='None'
 	fontsize': name say it so :) Default='2em'
