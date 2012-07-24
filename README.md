@@ -1,9 +1,9 @@
 TSMessages
 ==========
-<pre>
+
 A very simple jquery plugin for showing messages in a top bar
 
-Usage:
+<pre>Usage:
 	$.TSMessage(message[, options]);
 
 Options:
