@@ -9,7 +9,7 @@ var TSMsgBox = "<div id='tsMsgBox' style='position: fixed; width:100%; top: 0; l
 
 (function( $ ) {
 	$.TSMessage = function(message, options) {
-
+        var box, bgcolor;
 		function TSMessageBoxExists(){
 			return window.top.$("#tsMsgBox").length > 0;
 		}
